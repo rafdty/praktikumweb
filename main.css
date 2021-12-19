@@ -1,3 +1,13 @@
 body {
-    background-color: slategray;
+    background-color: lightslategray;
+}
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-width: 15px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 30px;
+    border-color: darkgray;
 }
