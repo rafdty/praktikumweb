@@ -46,3 +46,7 @@ a:link{
 }
 .navigasi li:last-child{
     float: right;
+}
+a:hover{
+    background-color: black;
+}
