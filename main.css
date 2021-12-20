@@ -24,3 +24,23 @@ ol,ul,image,p{
     margin-right: auto;
     margin-left: auto;
 }
+
+.navigasi{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: steelblue;
+}
+
+.navigasi ul{
+    float: left;
+}
+
+a:link{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
