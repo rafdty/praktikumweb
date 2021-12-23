@@ -79,7 +79,7 @@ th,td{
 tr:hover{
     background-color: skyblue;
 }
-footer{
+.footer{
     background-color: #333;
     position: fixed;
     left: 0;
@@ -97,4 +97,11 @@ footer{
     max-width: 70%;
     margin: auto;
     margin-bottom: 30px;
+}
+.form-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-bottom: 100px;
 }
