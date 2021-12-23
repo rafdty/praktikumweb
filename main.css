@@ -89,3 +89,12 @@ footer{
     color: white;
     margin-top: 15px;
 }
+.Form-Register{
+    position: static;
+    margin-bottom: 100px;
+}
+.Content-Form h1{
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+}
