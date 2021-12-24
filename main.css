@@ -93,10 +93,36 @@ tr:hover{
     position: static;
     margin-bottom: 100px;
 }
+.Content-Form input[type=radio   ]:not(old){
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 .Content-Form h1{
     max-width: 70%;
     margin: auto;
     margin-bottom: 30px;
+}
+.Content-Form input{ 
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.Content-Form textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+.Content-Form input{ 
+    background-color:steelblue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
 }
 .form-login{
     display: flex;
@@ -122,11 +148,11 @@ tr:hover{
     width: 33.33%;
     padding: 25px;
 }
-@media screen and (max-width: 850px) {
-    .my-portofolio{
+@media (max-width: 850px) {
+    .my-portofolio img{
         width: 50%;
     }
-@media screen and (max-width: 500px) {
-    .my-portofolio{
+@media (max-width: 500px) {
+    .my-portofolio img{
          width: 100%;
 }
